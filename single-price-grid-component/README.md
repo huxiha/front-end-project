@@ -29,8 +29,7 @@ The screenshot of my solution.
 ### Links
 
 - Solution URL: https://github.com/huxiha/front-end-project
-- Live Site URL: 
-
+- Live Site URL: https://huxiha.github.io/front-end-project/single-price-grid-component/
 ## My process
 
 ### Built with
