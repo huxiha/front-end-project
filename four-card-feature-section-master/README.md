@@ -27,8 +27,8 @@ The screenshot of my solution.
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/huxiha/front-end-project/tree/master/four-card-feature-section-master
+- Live Site URL: https://huxiha.github.io/front-end-project/four-card-feature-section-master/
 
 ## My process
 
