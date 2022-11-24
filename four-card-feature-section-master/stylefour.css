@@ -1,0 +1,141 @@
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding: 5rem;
+    background-color: hsl(0, 0%, 98%);
+}
+
+main {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    max-width: 500px;
+    min-width: 300px;
+    flex: 1;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.first {
+    color: rgb(159, 158, 158);
+    font-size: 1.2rem;
+}
+.second {
+    font-size: 1.3rem;
+}
+header p {
+    color: rgb(159, 158, 158);;
+}
+
+.Supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-radius: .5rem;
+    width: 265px;
+    flex: 1;
+    padding: 1.5rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+    box-shadow: 5px 10px 10px #e4e2e2;
+
+}
+.Supervisor h2 {
+    font-size: 1.2rem;
+}
+.Supervisor p {
+    color: rgb(159, 158, 158);
+}
+
+.icon-supervisor {
+    margin-left: 70%;
+}
+
+
+.Team {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-radius: .5rem;
+    background-color: white;
+    width: 265px;
+    flex: 1;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 5px 10px 10px #e4e2e2;
+}
+.Team h2 {
+    font-size: 1.2rem;
+}
+.Team p {
+    color: rgb(159, 158, 158);
+}
+.icon-team-builder {
+    margin-left: 70%;
+}
+
+.Karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-radius: .5rem;
+    background-color: white;
+    width: 265px;
+    flex: 1;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 5px 10px 10px #e4e2e2;
+}
+.Karma h2 {
+    font-size: 1.2rem;
+}
+.Karma p {
+    color: rgb(159, 158, 158);
+}
+.icon-karma {
+    margin-left: 70%;
+}
+
+.Calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    border-radius: .5rem;
+    background-color: white;
+    width: 265px;
+    flex: 1;
+    padding: 1.5rem;
+    box-shadow: 5px 10px 10px #e4e2e2;
+}
+.Calculator h2 {
+    font-size: 1.2rem;
+}
+.Calculator p {
+    color: rgb(159, 158, 158);
+}
+.icon-calculator {
+    margin-left: 70%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 400px) {
+    .four-card {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .Supervisor{
+        margin-right: 1.5rem;
+    }
+    .Calculator {
+        margin-left: 1.5rem;
+    }
+}
