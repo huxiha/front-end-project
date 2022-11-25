@@ -30,8 +30,8 @@ Screenshot of my solution.
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/huxiha/front-end-project/tree/master/huddle-landing-page-with-single-introductory-section-master
+- Live Site URL: https://huxiha.github.io/front-end-project/huddle-landing-page-with-single-introductory-section-master/
 
 ## My process
 
