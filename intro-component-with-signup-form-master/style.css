@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('images/bg-intro-mobile.png');
+    padding: 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 3rem;
+}
+
+.description {
+    text-align: center;
+    color: white;
+}
+
+.formField {
+    padding-top: 2.5rem;
+}
+
+.try {
+    border-radius: .5rem;
+    box-shadow: 0px 7px hsla(249, 10%, 26%, 0.2);
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: white;
+    padding: 1.2rem 3rem 1.2rem 3rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0px 7px hsla(249, 10%, 26%, 0.2);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    display: block;
+    outline-style: none;
+    border: solid 1px rgb(181, 175, 175);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    min-width: 88%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.emailAddr.change::-webkit-input-placeholder {
+    color: red;
+}
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    outline-style: none;
+    border: 0px;
+    border-radius: .5rem;
+    box-shadow: 0px 2px green;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ckdescription {
+    color: gray;
+    font-size: 0.1rem;
+    padding: 0.8rem;
+    text-align: center;
+
+}
+.ckdescription span {
+    color: red;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        background-image: url("images/bg-intro-desktop.png");
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 9rem 5rem 9rem;
+        margin: 0;
+    }
+
+    .description {
+        flex: 1;
+        margin-right: 3rem;
+        text-align: left;
+    }
+    .description h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .formField {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    input{
+        width: 93%
+    }
+
+
+}
