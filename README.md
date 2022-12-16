@@ -1,2 +1,1 @@
-# front-end-project
-Record the front-end project solution i have done.
+The solution of the front-end project in Frontend Mentor.
