@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./active.js" defer></script>
+</head>
+<body>
+  <div class="nav_head">
+    <nav class="nav">
+      <div class="navBox">
+        <img src="./images/logo.svg" alt="log">
+        <img src="./images/icon-hamburger.svg" alt="icon-hamburger" class="hamburger" id="hamburger">
+        <img src="./images/icon-close.svg" alt="icon-close" class="close" id="close">
+        <span class="navigation" id="navigation">
+          <a href="./index.html">How we work</a>
+          <a href="./index.html">Blog</a>
+          <a href="./index.html">Account</a>
+          <a href="./index.html" class="viewPlans">View plans</a>
+        </span>
+      </div>      
+    </nav>
+  </div>
+  
+  
+  <main>
+    <picture class="imageIntro">
+      <source media="(max-width: 400px)" srcset="./images/image-intro-mobile.jpg">
+      <source media="(min-width: 401px)" srcset="./images/image-intro-desktop.jpg">
+      <img src="image-intro.jpg" alt="image-intro">
+    </picture>
+
+    <picture class="bgIntroLeft">
+      <source media="(max-width: 400px)" srcset="./images/bg-pattern-intro-left-mobile.svg">
+      <source media="(min-width: 401px)" srcset="./images/bg-pattern-intro-left-desktop.svg">
+      <img src="bg-pattern-intro-left.svg" alt="bg-pattern-intro-left">
+    </picture>
+
+    <picture class="bgIntroRight">
+      <source media="(max-width: 400px)" srcset="./images/bg-pattern-intro-right-mobile.svg">
+      <source media="(min-width: 401px)" srcset="./images/bg-pattern-intro-right-desktop.svg">
+      <img src="bg-pattern-intro-right.svg" alt="bg-pattern-intro-right">
+    </picture>
+
+            
+    <section class="humanizing">
+      <div class="humanizing_article">
+        <div class="line"></div>
+        <h2>Humanizing your insurance.</h2>
+        <p>
+          Get your life insurance coverage easier and faster. We blend our expertise 
+          and technology to help you find the plan that’s right for you. Ensure you 
+          and your loved ones are protected.
+        </p>
+        <button>View plans</button>
+      </div>      
+    </section>
+    
+    <section class="different">
+      <div class="line"></div>
+      <h2>We’re different</h2>
+      <div class="card">
+        <div>
+          <img src="./images/icon-snappy-process.svg" alt="icon-snappy-process">
+          <h3>Snappy Process</h3>
+          <p>
+            Our application process can be completed in minutes, not hours. Don’t get 
+            stuck filling in tedious forms.
+          </p>
+        </div>
+        <div>
+          <img src="./images/icon-affordable-prices.svg" alt="icon-affordable-prices">
+          <h3>Affordable Prices</h3>
+          <p>
+            We don’t want you worrying about high monthly costs. Our prices may be low, 
+            but we still offer the best coverage possible.
+          </p>
+        </div>
+        <div class="last">
+          <img src="./images/icon-people-first.svg" alt="icon-people-first">
+          <h3>People First</h3>
+          <p>
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+            sure you’re covered when you need it.
+          </p>
+        </div>
+      </div>      
+    </section>
+    
+    <section class="findout">
+      <div>
+        <picture class="howWeWork">
+          <source media="(max-width: 400px)" srcset="./images/bg-pattern-how-we-work-mobile.svg">
+          <source media="(min-width: 401px)" srcset="./images/bg-pattern-how-we-work-desktop.svg">
+          <img src="bg-how-we-work.svg" alt="bg-pattern-how-we-work">
+        </picture>
+
+        <h2>Find out more about how we work</h2>
+        <button>How we work</button>
+      </div>      
+    </section>
+  </main>
+</body>
+
+<footer>
+  <picture class="bgfooter">
+    <source media="(max-width: 400px)" srcset="./images/bg-pattern-footer-mobile.svg">
+    <source media="(min-width: 401px)" srcset="./images/bg-pattern-footer-desktop.svg">
+    <img src="bg-footer.svg" alt="bg-pattern-footer">
+  </picture>
+
+  <nav>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo">
+      <div>
+        <a href="https://www.facebook.com/" target="_blank"><img src="./images/icon-facebook.svg" alt="icon-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="./images/icon-twitter.svg" alt="icon-twitter"></a>
+        <a href="https://www.pinterest.com/" target="_blank"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="./images/icon-instagram.svg" alt="icon-instagram"></a>
+      </div>
+    </div>
+    
+    <div class="others">
+      <div>
+        <h4>Our company</h4>
+        <a href="./">How we work</a>
+        <a href="./">Why Insure?</a>
+        <a href="./">View plans</a>
+        <a href="./">Reviews</a>
+      </div>
+      <div>
+        <h4>Help me</h4>
+        <a href="./">FAQ</a>
+        <a href="./">terms of use</a>
+        <a href="./">Privacy policy</a>
+        <a href="./">Cookies</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="./">Sales</a>
+        <a href="./">Support</a>
+        <a href="./">Live chat</a>
+      </div>
+      <div>
+        <h4>Others</h4>
+        <a href="./">Careers</a>
+        <a href="./">Press</a>
+        <a href="./">Licenses</a>
+      </div>
+    </div>
+    
+  </nav>
+
+</footer>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">huxixi</a>.
+  </div>
+
+</html>
