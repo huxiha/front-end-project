@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navigation{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+}
+
+.mobielNav {
+  display: none;
+}
+
+.desktopNav{  
+  padding: 40px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.links a{
+  margin-left: 30px;
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+}
+
+.buttons button {
+  margin-left: 30px;
+  outline-style: none;
+  
+}
+
+.button1 {
+  border: none;
+  background: none;
+  color: hsl(257, 7%, 63%);
+}
+
+.button2 {
+  border: 0px;
+  border-radius: 1rem;
+  padding: 6px 20px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.morethan {
+  margin-top: 100px;
+  display: flex;
+  padding: 40px 120px;
+  overflow: hidden;
+}
+
+.morethan article {
+  min-width: 55%;
+  margin-right: 50px;
+  padding-top: 70px;
+}
+
+.morethan img {
+  min-width: 65%;
+}
+
+article h2 {
+  width: 100%;
+  font-size: 65px;
+  line-height: 70px;
+  color: hsl(255, 11%, 22%);
+  margin-bottom: 3px;
+}
+
+article p {
+  width: 80%;
+  font-size: 16px;
+  color: hsl(257, 7%, 63%);
+}
+
+.morethan button {
+  margin-top: 35px;
+  outline-style: none;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 2rem;
+  padding: 8px 30px;
+  font-size: 14px;
+  color: white;
+}
+
+.shortenUrl {
+  margin-top: 95px;
+  padding: 0px 120px;
+  margin-bottom: 0px;
+}
+
+.shortenform {
+  padding: 30px 50px;
+  border-radius: .5rem;
+  background: url('./images/bg-shorten-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 27%, 26%);
+  position: relative;
+  bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputandtip {
+  width: 75%;
+  margin-right: 10px;
+}
+
+.shortenform .inputandtip .inputUrl {
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: .5rem;
+  outline-style: none;
+  border: none;
+  color: hsl(257, 7%, 63%);
+}
+
+.shortenform .inputUrl::placeholder {
+  font-size: larger;
+}
+
+#myInput.change::placeholder {
+  color: hsl(0, 87%, 67%);
+}
+
+#myInput.change {
+  border: solid 1px hsl(0, 87%, 67%);
+}
+
+.shortenform .inputandtip p{
+  font-style: italic;
+  color: hsl(0, 87%, 67%);
+  display: none;
+}
+
+.shortenform .submitIt {
+  width: 20%;
+  height: 10%;
+  padding: 11px 10px;
+  border-radius: .5rem;
+  background-color: hsl(180, 66%, 49%);
+  outline-style: none;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+.urlList {
+  padding: 10px 120px;
+  position: relative;
+  bottom: 60px;
+}
+
+.urlPreview {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+.copy button {
+  outline-style: none;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: .5rem;
+  min-width: 20%;
+  padding: 10px 20px;
+  color: white;
+  margin: 0;
+}
+
+.copy .shortenurl {
+  padding-right: 10px;
+  text-align: right;
+  margin: 0;
+  color: hsl(180, 66%, 49%);
+}
+
+.shorten {
+  background-color: hsl(258, 42%, 95%);
+}
+
+.advanced {
+  padding: 0px 120px;
+  padding-bottom: 120px;
+  background-color: hsl(258, 42%, 95%);
+  height: auto;
+}
+
+.advanced article {
+  padding: 0px 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.advanced article h3{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: hsl(257, 27%, 26%);
+}
+
+.advanced article p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.advanced .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.brand, .detailed, .customizable{
+  background-color: white;
+  height: 200px;
+  width: 30%;
+  padding: 10px 20px;
+  
+}
+
+.brand h4, .detailed h4, .customizable h4{
+  position: relative;
+  top: -30px;
+  font-size: 1.2rem;
+}
+
+.brand p, .detailed p, .customizable p {
+  position: relative;
+  top: -15px;
+  font-size: .7rem;
+  width: 95%;
+  color: hsl(0, 0%, 75%);
+}
+
+.icon-img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  top: -55px;
+  background-color: hsl(257, 27%, 26%);
+  margin-bottom: 2px;
+}
+
+.icon-img img {
+  position: relative;
+}
+
+.brand .icon-img img {
+  left: 4px;
+}
+
+.detailed .icon-img img{
+  left: 5px;
+  top: 2px;
+}
+
+.detailed {
+  position: relative;
+  top: 40px;
+}
+
+.customizable {
+  position: relative;
+  top: 80px;
+}
+
+.line {
+  background-color: hsl(180, 66%, 49%);
+  width: 200px;
+  height: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.boost {
+  background: url('./images/bg-boost-desktop.svg');
+  background-color: hsl(257, 27%, 26%);
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boost h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.boost button {
+  outline: none;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  padding: 10px 40px;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+.endlinks {
+  padding: 60px 120px;  
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(260, 8%, 14%);
+}
+
+.endlinks svg {
+  fill: white;
+}
+
+.foosterlinks {
+  display: flex;
+}
+
+.otherLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherLinks ul {
+  margin-right: 70px;
+  color: white;
+  list-style: none;
+}
+
+.otherLinks ul h5 {
+  margin-bottom: 10px;
+}
+
+.otherLinks ul li {
+  color: hsl(0, 0%, 75%);
+  font-size: smaller;
+  margin-top: 5px;
+}
+
+.iconLinks a {
+  margin-left: 15px;
+} 
+
+.iconLinks a img {
+  width: 18px;
+}
+
+.button2:hover, .morethan button:hover, .shortenform button:hover, .copy button:hover, .boost button:hover{
+  cursor: pointer;
+  background-color: hsl(180, 59%, 68%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 800px) {
+  .desktopNav {
+    display: none;
+  }
+
+  .mobielNav {
+    display: block;
+    padding: 35px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobielNav i:hover {
+    cursor: pointer;
+  }
+
+  .activeNav {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(257, 27%, 26%);
+    max-width: calc(100vw - 40px);
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 35px 1px;
+    border-radius: .8rem;
+  }
+
+  .activeNav .links {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100% - 40px);
+    border-bottom: solid 1px hsl(0, 0%, 75%);
+    margin-bottom: 30px;
+  }
+
+  .activeNav .links a {
+    margin-right: 20px;
+    color: white;
+    margin-bottom: 30px;
+    
+  }
+
+  .activeNav .buttons {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .activeNav .buttons button {
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .activeNav .buttons .button2 {
+    width: calc(100% - 10px);
+    margin-right: 10px;
+  }
+
+  .navigation {
+    margin-bottom: 3px;
+  }
+
+  .morethan {
+    flex-direction: column-reverse;
+    padding: 0px 20px;
+    margin-bottom: 160px;
+  }
+  
+  .morethan img {
+    min-width: 150%;
+  }
+
+  .morethan article {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .morethan article h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+
+  .morethan article p {
+    min-width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .morethan article button {
+    padding: 10px 45px;
+  }
+
+  .shortenUrl {
+    padding: 0px 20px;
+    margin-top: 60px;
+  }
+  
+  .shortenform {
+    bottom: 82px;
+    padding: 20px;
+    background: url('./images/bg-shorten-mobile.svg');
+    background-color: hsl(257, 27%, 26%);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shortenform .inputandtip {
+    width: 100%;
+  }
+  
+  .shorten .inputandtip .inputUrl {
+    width: 93%;
+    margin-bottom: 15px;
+    font-size: larger;
+  }
+
+  
+  .shorten .submitIt {
+    width: 100%;
+    font-size: larger;
+  }
+
+  #myInput.change {
+    margin-bottom: 0;
+  }
+
+  .urlList {
+    padding: 0px 20px;
+  }
+  
+  .urlPreview {
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .orignUrl {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc(100% - 20px);
+    border-bottom: solid 1px hsl(0, 0%, 75%);
+  }
+  
+  .copy {
+    width: calc(100% - 40px);
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  
+  .copy button {
+    width: calc(100% + 20px);;
+  }
+  
+  .copy .shortenurl {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    color: hsl(180, 66%, 49%);
+    position: relative;
+    left: 0;
+  }
+  
+  .advanced {
+    padding: 0px 20px;
+    padding-bottom: 40px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .advanced article {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+  }
+  
+  .advanced article h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .advanced article p {
+    font-size: .6rem;
+  }
+  
+  .advanced .cards {
+    flex-direction: column;
+  }
+  
+  .brand, .detailed, .customizable{
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .brand h4, .detailed h4, .customizable h4{
+    text-align: center;
+  }
+  
+  .brand p, .detailed p, .customizable p {
+    text-align: center;
+  }
+  
+  .icon-img {
+    top: -45px;
+    left: 34%;
+    background-color: hsl(257, 27%, 26%);
+  }
+  
+  .detailed {
+    position: static;
+  }
+  
+  .customizable {
+    position: static;
+  }
+  
+  .line {
+    position: static;
+    width: 20px;
+    height: 70px;
+  }
+  
+  .button2:hover, .morethan button:hover, .shortenform button:hover, .copy button:hover{
+    cursor: pointer;
+    background-color: hsl(180, 59%, 68%);
+  }
+  
+  .boost {
+    background: url('./images/bg-boost-mobile.svg');
+    background-color: hsl(257, 27%, 26%);
+    padding: 60px 20px;
+  }
+  
+  .boost h3 {
+    font-size: 1.5rem;
+  }
+  
+  .endlinks {
+    padding: 60px 20px;  
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .foosterlinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .otherLinks {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otherLinks ul {
+    margin-right: 0px;
+    margin: 8px;
+  }
+  
+  .otherLinks ul h5 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .otherLinks ul li {
+    color: hsl(0, 0%, 75%);
+    font-size: smaller;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .iconLinks a {
+    margin-left: 15px;
+    margin-top: 15px;
+  } 
+  
+  .iconLinks a img {
+    width: 18px;
+  }
+
+}
+
+
+
