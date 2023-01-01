@@ -1,0 +1,182 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+    padding: 0;
+}
+
+.fixedTop {
+    margin-bottom: 140px;
+}
+
+.headers {
+    width: 89vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+}
+
+.headers button {
+    outline-style: none;
+    border: none;
+    background-color: white;
+}
+
+.searchCountries {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+.searchCountry {
+    width: 35%;
+    padding: 0px 0px 0px 60px;
+    position: relative;
+}
+
+.searchCountry i {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+.searchCountry input {
+    width: 90%;
+    padding: 10px 50px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(230, 228, 228);
+}
+
+.searchRegion {
+    width: 15%;
+    background-color: white;
+}
+
+.searchRegion select {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 15px 10px;
+    box-shadow: 0px 0px 2px rgb(230, 228, 228);
+    
+}
+
+.countriesList {
+    padding: 60px;
+    column-count: 4;
+    column-gap: 60px;
+    
+}
+
+.countryDisplay {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 60px;
+    padding: 0;
+    background-color: white;
+    break-inside: avoid;
+}
+
+.countryDisplay a {
+    text-decoration: none;
+    color: black;
+}
+
+.flag {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+.countryInfo {
+    padding: 3px 0px 20px 15px;
+    
+}
+
+.countryInfo h3 {
+    padding: 0px;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.countryInfo p {
+    font-size: .2rem;
+}
+
+.countryDetails {
+    padding: 0px 60px 60px 60px;
+    position: relative;
+}
+
+.countryDetails a {
+    outline-style: none;
+    border: none;
+    padding: 15px 35px 15px 55px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(230, 228, 228);
+    text-decoration: none;
+    color: black;
+}
+
+.countryDetails i {
+    position: absolute;
+    top: 4px;
+    left: 85px;
+}
+
+.countryDetails .displayDetails .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countryDetails .displayDetails .detail img {
+    width: 40%;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.countryDetails .displayDetails .detail article {
+    padding-right: 60px;
+}
+
+.baseInfo {
+    column-count: 2;
+    column-gap: 70px;
+    break-inside: avoid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.baseInfo p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.borderCountries {
+    display: flex;
+    align-items: center;
+}
+
+.displayBorder a {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    padding: 3px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(230, 228, 228);
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
